@@ -44,7 +44,7 @@ int total, n;
 Double average;
 Average = (double)total/n;   //total cast
 ```
-	- Int can automatically cast to a double
+- Int can automatically cast to a double
 - Round the number
 	- Round a positive number by simply truncating the number 
 ```java
@@ -53,3 +53,8 @@ Int numDollars = (int) cost;   // sets numDollars to 11
 Round a positive number
 Int numDollars = (int) (cost + 0.5)
 ```
+
+## Operators ##
+### Arithmetic Operators ###
+
+
