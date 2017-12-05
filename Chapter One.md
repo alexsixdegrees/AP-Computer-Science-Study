@@ -1,4 +1,4 @@
-#Chapter One - Introductory Java#
+# Chapter One - Introductory Java #
 
 ## Package and Classes ##
 
@@ -23,11 +23,11 @@ Case-sensitive
 
 ### Built-in type ###
 - Every identifier has a type associated with it
-- Int: an integer (2,-37)
-- Integers are bounded, otherwise overflow error
-- Boolean: just two values, true or false
-- Double: floating-point number (2.718, 9.1)
-- Example Code:
+	- Int: an integer (2,-37)
+		- Integers are bounded, otherwise overflow error
+	- Boolean: just two values, true or false
+	- Double: floating-point number (2.718, 9.1)
+	- Example Code:
 ```java
 Int x;
 Double y,z
@@ -38,15 +38,18 @@ Double p = 2.3, q = 4.1;
 
 ### Casting ###
 
-- exapmle
-- int total, n;
-- Double average;
-- Average = (double)total/n;   //total cast
-- Int can automatically casts to a double
+- example
+```java
+int total, n;
+Double average;
+Average = (double)total/n;   //total cast
+```
+	- Int can automatically cast to a double
 - Round the number
-- Round a positive number by simply truncating the number 
-- Double cost = 10.92;
-- Int numDollars = (int) cost;   // sets numDollars to 11
-- Round a positive number
-- Int numDollars = (int) (cost + 0.5)
-
+	- Round a positive number by simply truncating the number 
+```java
+Double cost = 10.92;
+Int numDollars = (int) cost;   // sets numDollars to 11
+Round a positive number
+Int numDollars = (int) (cost + 0.5)
+```
