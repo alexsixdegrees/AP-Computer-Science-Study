@@ -28,14 +28,13 @@ Note:
 		○ Boolean: just two values, true or false
 		○ Double: floating-point number (2.718, 9.1)
 	Example Code:
-	
-```java
-Int x;
-Double y,z
-Boolean found;
-Int count = 1;     //count initialized to 1
-Double p = 2.3, q = 4.1;  
-```
+	```java
+		○ Int x;
+		○ Double y,z
+		○ Boolean found;
+		○ Int count = 1;     //count initialized to 1
+		○ Double p = 2.3, q = 4.1;  
+	```
 	- One type can be cast to another type
 		○ exapmle
 			§ int total, n;
