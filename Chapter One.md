@@ -110,8 +110,8 @@ system.out.println(x);
 | \\" | double quote |
 | \\\ | backslash |
 
-### Control Structure ###
-#### if statement ####
+## Control Structure ##
+### if statement ###
 if (boolean expression)
 {
 	statements
@@ -121,7 +121,7 @@ else
 	statements	
 }
 
-#### extended if statement ####
+### extended if statement ###
 if ()
 	statement;
 else if ()
@@ -131,3 +131,35 @@ else if ()
 else ()
 	statement;
 
+### iteration ###
+for (initialization; termination condition; update statement)
+{
+	statements;   //body of loop
+}
+
+```java
+//output 1,2,3,4
+for (i = 1; i < 5, i ++)
+	System.out.println(i);
+```
+
+### for each loop ###
+for (some type of collection of elements)
+{
+	statements
+}
+
+### While Loop ###
+while (Boolean test)
+{
+	statements    //loop body
+}
+
+
+## Errors and exceptions
+Different types of exceptions:
+
+| exceptions | meaning |
+|---|---|
+| arithmeticException | divide an integer by zero  |
+| arrayindexoutofbonds | a negative array index |
