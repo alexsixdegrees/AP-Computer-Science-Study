@@ -2,4 +2,71 @@
 
 ## Objects ##
 
+Object is a thing that is being created or manipulated by the program.
+
+Object is characterized by state and behaviour.
+
+In Java, a variable that represents an object is called an object reference.
+
+## Classes ##
+
+Class is a software blueprint for implementing objects of a given type. 
+
+## Public, Private, and Static ##
+- public: the class is usable by all client programs
+- private: private methods and variables can be accessed only by methods of that class
+- static: memory allocation hapeens once.
+
+## Methods ##
+
+### Headers ###
+
+| public | void | withdraw | (string password, double amount) |
+|---|---|---|---|
+| access specifier| return type  | method name | parameter list |
+
+### Types of methods ###
+
+#### Constructors ####
+
+1. Default constructor
+	1. has no return value and only initializing class objects.
+	2. example:
+	```java
+	/** Default constructors.
+	* Constructs a initial value for the hero. */
+	public NewHero()
+	{
+		attack = 50.0;
+		hp = 100.0;
+	}
+	```
+	3. Declaration:
+	```java
+	NewHero a = new NewHero();
+	```
+2. Constructor with parameters
+	1. entering values in the parameters would sets the value for the objects.
+	2. exapmle:
+	```java
+	/** Constructor. Constrcts a hero with 
+	*specified attack and hp. */
+	public NewHero1(nattack,nhp)
+	{
+		attack = nattack;
+		hp = nhp;
+	}
+	```
+	3. Declaration:
+	```java
+	NewHero b = new NewHero(33,500);
+	```
+3. note that b and c are only addresses for the objects, rather than storing objects themselves.
+
+#### Accessors ####
+
+
+
+
+
 
