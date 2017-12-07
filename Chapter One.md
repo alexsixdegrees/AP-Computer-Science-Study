@@ -50,11 +50,84 @@ Average = (double)total/n;   //total cast
 ```java
 Double cost = 10.92;
 Int numDollars = (int) cost;   // sets numDollars to 11
-Round a positive number
-Int numDollars = (int) (cost + 0.5)
+Int numDollars = (int) (cost + 0.5)   // Round a positive number
 ```
 
 ## Operators ##
 ### Arithmetic Operators ###
 
+| operator | meaning |
+|---|---|
+| +  | addition  |
+|  - | substraction  |
+| *  | mutli  |
+| / | division |
+| % | mod | 
+
+### Relational operators ###
+
+| operator | meaning |
+|---|---|
+| ==  | equal to  |
+|  != | not equal  |
+| > | greater than  |
+| < | smaller than |
+| >= | greater or equal | 
+| <= | less or equal | 
+
+### logical operators ###
+
+| operator | meaning |
+|---|---|
+| ! | not |
+| && | and  |
+| || | or |
+
+### assignment operators ###
+| operator | meaning |
+|---|---|
+| += | x = x + 4 |
+| *= | x = 4x  |
+| ... | ... |
+
+### increment and decrement operators ###
+| operator | meaning |
+|---|---|
+| ++ | x is incremented by one |
+| -- | x is dncremented by one |
+| ... | ... |
+
+## Input Output ##
+
+int x = 23;
+system.out.println("Hot");
+system.out.println(x);
+
+### Escape Sequence ###
+| operator | meaning |
+|---|---|
+| \n | newline |
+| \\" | double quote |
+| \\\ | backslash |
+
+### Control Structure ###
+#### if statement ####
+if (boolean expression)
+{
+	statements
+}
+else
+{
+	statements	
+}
+
+#### extended if statement ####
+if ()
+	statement;
+else if ()
+	statement;
+else if ()
+	statement;
+else ()
+	statement;
 
