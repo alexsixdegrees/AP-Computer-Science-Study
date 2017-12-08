@@ -25,7 +25,9 @@ Class is a software blueprint for implementing objects of a given type.
 |---|---|---|---|
 | access specifier| return type  | method name | parameter list |
 
-### Types of methods ###
+### Instance Methods ###
+
+Instance methods, constructors, accessors, and mutators, all operate on individual objects of a class.
 
 #### Constructors ####
 
@@ -64,6 +66,54 @@ Class is a software blueprint for implementing objects of a given type.
 3. note that b and c are only addresses for the objects, rather than storing objects themselves.
 
 #### Accessors ####
+
+An accessor returns some information about the object. 
+
+```java
+/** @return the balance of this account */
+public double getData()
+{ return balance; }
+```
+
+#### Mutators ####
+
+A mutator changes the state of an object by modifying at least one of its variables. 
+```java
+/** @ alter one of the instance variables.*/
+public void ()
+{ return balance; }
+```
+
+### Static Methods ###
+
+static methods can use static variable in its code rather than pricate instance variable. 
+
+```java
+public static double getInterestRate()
+{
+	System.out.println("Enter interest rate for bank account /n Enter in decimal form.")
+	intRate = IO.readDouble()
+	return intRate
+}
+```
+
+### Method Overloading ###
+
+Using two or more methods in the same class that have the same name but different parameter lists. 
+
+```java
+public class DoOperations
+{
+	public int product (int n) {return n * n};
+	public double product (double x) {return x * x}
+}
+```
+
+
+
+
+
+
 
 
 
