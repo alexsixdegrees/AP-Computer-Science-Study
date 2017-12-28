@@ -1,8 +1,8 @@
 # Chapter One - Introductory Java
 
-## Package and Classes
+## Package and Class
 
-Related class are grouped into packages.  
+Related classes are grouped into packages.  
 Source files - java files comprise of your program
 
 Main method - A java program must have at least one class.

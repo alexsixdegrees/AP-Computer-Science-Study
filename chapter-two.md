@@ -16,7 +16,7 @@ Class is a software blueprint for implementing objects of a given type.
 
 * public: the class is usable by all client programs
 * private: private methods and variables can be accessed only by methods of that class
-* static: memory allocation hapeens once.
+* static: memory allocation happens once.
 
 ## Methods
 
@@ -37,7 +37,7 @@ Instance methods, constructors, accessors, and mutators, all operate on individu
    2. example:
       \`\`\`java
       /\*\* Default constructors.
-   3. Constructs a initial value for the hero. \*/
+   3. Constructs an initial value for the hero. \*/
       public NewHero\(\)
       {
         attack = 50.0;
@@ -88,7 +88,7 @@ public void ()
 
 ### Static Methods
 
-static methods can use static variable in its code rather than pricate instance variable.
+static methods can use a static variable in its code rather than a private instance variable.
 
 ```java
 public static double getInterestRate()
